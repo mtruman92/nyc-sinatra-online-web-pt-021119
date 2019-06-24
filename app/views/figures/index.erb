@@ -1,0 +1,6 @@
+<h1>Figure Index Page</h1>
+<%@figures.each do |figure|%>
+<p><%=figure.name%></p>
+<a href=<%="/figures/#{figure.id}"%>>View Figure</a>
+<p>~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<%end%>
